@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        h1{
+            color: red;
+            text-align: center;
+        }
+        input {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+   <h1>Please enter your  credentials</h1>
+   <div>
+    <form action="/authenticate"  method="post">
+        <input type="text" name="username" placeholder="Name" />
+        <input type="text" name="password" placeholder="Password" />
+        <button type="submit">SUBMIT</button>
+
+    </form>
+   </div>
+</body>
+</html>
